@@ -1,11 +1,25 @@
 .header {
-    background-color: #241E4E; 
+    background-color: rgb(61, 61, 61); 
     padding: 20px;
+    width: 100%;
 
     h1 {
-        font-family: 'Karma';
-        color: #FFD046;
-        font-weight: 500;
+        font-family: "Hind Siliguri";
+        font-style: normal;
+        color: #eba8ac;
+        font-weight: 700;
         text-align: center;
+        font-size: 35px;
+    }
+
+    .navigation {
+        margin: 0 auto;
+        width: 340px;
+        button {
+            margin: 20px;
+            font-family: "Yrsa";
+            background-color:#eba8ac;
+            color: white;
+        }
     }
 }
